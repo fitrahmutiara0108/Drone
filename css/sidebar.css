@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,500|Roboto:500|Inter:400");
+
+body {
+  margin: 0;
+}
+
+/* Add media query for small screens */
+@media screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    height: 100vh;
+    position: static;
+    background: #0f4187;
+  }
+
+  .sidebar2 {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-top: 20px;
+    background-color: aqua;
+  }
+
+  .sidebox {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .sidebox2 {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+}
+
+/* Add media query for medium and large screens */
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sidebar {
+    width: 14rem;
+    height: auto;
+    min-height: 615px;
+    max-height: 1500px;
+    background: #0f4187;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+
+  .sidebar2 {
+    flex: 1;
+    height: auto;
+    min-height: 615px;
+    max-height: 1500px;
+    position: relative;
+    margin-left: 14rem;
+    background-color: aqua;
+  }
+
+  .sidebox {
+    max-width: 75%;
+    max-height: 800px;
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+    left: 30px;
+  }
+
+  .sidebox2 {
+    max-width: 100%;
+    max-height: 500px;
+    position: relative;
+    margin-top: 20px;
+    left: 0;
+    right: 30px;
+  }
+}
+
+
+.logo {
+  width: 120px;
+  height: 21px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.dashboard {
+  width: 19px;
+  height: 19px;
+  background: url("../images/dashboard.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.transponder {
+  width: 19px;
+  height: 19px;
+  background: url("../images/transponder.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.user {
+  width: 19px;
+  height: 19px;
+  background: url("../images/user.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.text {
+  position: relative;
+  top: 0%;
+  margin-left: 180%;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 1em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.subtext {
+  position: relative;
+  width: 100%;
+  margin-left: 20%;
+  height: 2em;
+  padding: 0.4em 2.5%;
+}
+
+.subtext2 {
+  position: relative;
+  top: 1em;
+  font-family: Poppins;
+  font-weight: regular;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+

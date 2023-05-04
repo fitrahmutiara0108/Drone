@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../css/navbar.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <span class="title">Monitoring</span>
+      <div class="bell">
+        <svg
+          style="color: rgb(108, 114, 167)"
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-bell"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+            fill="#6c72a7"
+          ></path>
+        </svg>
+        <!-- <svg style="color: rgb(108, 114, 167);" xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"> <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="#6c72a7"></path> <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" fill="#6c72a7"></path> </svg> -->
+      </div>
+
+      <div class="profile">
+        <div class="dropdown">
+            <svg onclick="myFunction()" class="dropbtn"
+            style="color: rgb(108, 114, 167)"
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            fill="currentColor"
+            class="bi bi-person-circle"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="#6c72a7"></path>
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+              fill="#6c72a7"
+            ></path>
+          </svg>
+          <div id="myDropdown" class="dropdown-content">
+              <span class="dropdown-title">Beehive Drones</span
+              ><span class="dropdown-mail">beehive@gmail.com</span>
+              <div class="dropdown-list">
+                <span class="dropdown-text">My Profile</span>
+                <div class="dropdown-profile">
+                  <svg style="color: rgb(108, 114, 167);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"> <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" fill="#6c72a7"></path> </svg>
+                </div>
+              </div>
+              <div class="dropdown-list">
+                <span class="dropdown-text">Sign Out</span>
+                <div class="dropdown-logout">
+                  <svg style="color: rgb(108, 114, 167);" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"> <polygon fill="var(--ci-primary-color, currentColor)" points="77.155 272.034 351.75 272.034 351.75 272.033 351.75 240.034 351.75 240.033 77.155 240.033 152.208 164.98 152.208 164.98 152.208 164.979 129.58 142.353 15.899 256.033 15.9 256.034 15.899 256.034 129.58 369.715 152.208 347.088 152.208 347.087 152.208 347.087 77.155 272.034" class="ci-primary"></polygon> <polygon fill="var(--ci-primary-color, currentColor)" points="160 16 160 48 464 48 464 464 160 464 160 496 496 496 496 16 160 16" class="ci-primary"></polygon> </svg>
+                </div>
+              </div>
+              <div class="dropdown-photo">
+                <svg style="color: rgb(108, 114, 167);" xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"> <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="#6c72a7"></path> <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" fill="#6c72a7"></path> </svg>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
